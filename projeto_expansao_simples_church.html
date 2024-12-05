@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto de Expansão - Simples Church</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F9F9F9;
+            color: #333;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #1E4A7E;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #4F84C4;
+            margin-bottom: 30px;
+        }
+
+        .progress-container {
+            background-color: #E0E0E0;
+            border-radius: 25px;
+            position: relative;
+            margin: 20px auto;
+            height: 30px;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .progress-bar {
+            background: linear-gradient(90deg, #4F84C4, #1E4A7E);
+            height: 100%;
+            border-radius: 25px;
+            transition: width 0.4s ease;
+        }
+
+        .progress-label {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: bold;
+            color: #fff;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #1E4A7E;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Projeto de Expansão</h1>
+        <h2>Simples Church</h2>
+        <p>Estamos arrecadando para expandir nossa igreja para um prédio maior. Contribua e faça parte dessa transformação!</p>
+
+        <div class="progress-container">
+            <div class="progress-bar" style="width: 75%;">
+                <span class="progress-label">75% arrecadado</span>
+            </div>
+        </div>
+
+        <p>Meta: R$ 100.000,00 | Arrecadado: R$ 75.000,00</p>
+    </div>
+
+    <footer>
+        <p>Simples Church - Transformando vidas, expandindo o Reino!</p>
+    </footer>
+</body>
+</html>
